@@ -1,0 +1,637 @@
+body {
+    background-image: url(immagini/chiaro.png);
+}
+#title {
+    position: absolute;
+    left: 100px;
+
+    font-family: 'IBM Plex Mono medium';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 117px;
+    
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    color: #4F5B71;
+}
+#menu {
+    position: sticky;
+    width: 670px;
+    height: 66px;
+    top: 20px;
+    left: 450px;
+
+    background: linear-gradient(91deg, rgba(255, 255, 255, 0.4) 11%, rgba(255, 255, 255, 0.1) 88%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(20px);
+    border-radius: 40px;
+
+    outline: 1px solid  #DEDEDE;
+    z-index: 1;
+}
+#buttonHOME{
+    position: absolute;
+    width: 160px;
+    height: 38px;
+    left: 40px;
+    top: 15px;
+
+    background: linear-gradient(90.86deg, rgba(255, 255, 255, 0.4) 10.67%, rgba(255, 255, 255, 0.1) 87.84%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(20px);
+    border-radius: 40px;
+    outline: 1px solid white ;
+    border: none;
+
+
+    font-family: 'IBM Plex Mono medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+
+    color: #23334D;
+}
+#buttonHOME:hover{
+    outline: 1px solid white ;
+    border: none;
+    background: linear-gradient(91.65deg, rgba(35, 51, 77, 0.5) 10.61%, rgba(35, 51, 77, 0.2) 100.66%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(20px);
+    border-radius: 40px;
+
+    font-family: 'IBM Plex Mono medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+
+    color: #23334D;
+}
+#buttonCHISIAMO{
+    position: absolute;
+    width: 160px;
+    height: 38px;
+    left: 250px;
+    top: 15px;
+
+
+    outline: 1px solid white ;
+    border: none;
+    background: linear-gradient(91.65deg, rgba(35, 51, 77, 0.5) 10.61%, rgba(35, 51, 77, 0.2) 100.66%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(20px);
+    border-radius: 40px;
+
+    font-family: 'IBM Plex Mono medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+
+    color: #23334D;
+}
+#buttonCHISIAMO:hover{
+    outline: 1px solid white ;
+    border: none;
+    background: linear-gradient(91.65deg, rgba(35, 51, 77, 0.5) 10.61%, rgba(35, 51, 77, 0.2) 100.66%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(20px);
+    border-radius: 40px;
+
+    font-family: 'IBM Plex Mono medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+
+    color: #23334D;
+}
+
+#buttonPRODOTTI{
+    position: absolute;
+    width: 160px;
+    height: 38px;
+    left: 470px;
+    top: 15px;
+
+    background: linear-gradient(90.86deg, rgba(255, 255, 255, 0.4) 10.67%, rgba(255, 255, 255, 0.1) 87.84%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(20px);
+    border-radius: 40px;
+    outline: 1px solid white ;
+    border: none;
+
+
+    font-family: 'IBM Plex Mono medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+
+    color: #23334D;
+}
+#buttonPRODOTTI:hover{
+    outline: 1px solid white ;
+    border: none;
+    background: linear-gradient(91.65deg, rgba(35, 51, 77, 0.5) 10.61%, rgba(35, 51, 77, 0.2) 100.66%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(20px);
+    border-radius: 40px;
+
+    font-family: 'IBM Plex Mono medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+
+    color: #23334D;
+}
+#option{
+    position: absolute;
+    width: 202px;
+    height: 66px;
+    top: 20px;
+    left: 1220px;
+    background: linear-gradient(91deg, rgba(255, 255, 255, 0.4) 11%, rgba(255, 255, 255, 0.1) 88%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(20px);
+    border-radius: 40px;
+    
+    outline: 1px solid white ;
+    border: none;
+}
+
+#button_login{
+    border: none;
+    outline: none;
+    background: none;
+    position: absolute;
+    top: 16px;
+    left: 13px;
+}
+#button_login:hover{
+    position: absolute;
+    width: 58px;
+    height: 58px;
+    top: 3.8px;
+    left: 5.8px;
+    background: linear-gradient(91deg, rgba(255, 255, 255, 0.4) 11%, rgba(255, 255, 255, 0.1) 88%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(20px);
+    border-radius: 40px;
+    
+    outline: 1px solid white ;
+    border: none;
+}
+
+#button_shoppinglist{
+    border: none;
+    outline: none;
+    background: none;
+    position: absolute;
+    top: 13px;
+    left: 75px;
+}
+#button_shoppinglist:hover{
+    position: absolute;
+    width: 58px;
+    height: 58px;
+    top: 3.8px;
+    left: 71.8px;
+    background: linear-gradient(91deg, rgba(255, 255, 255, 0.4) 11%, rgba(255, 255, 255, 0.1) 88%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(20px);
+    border-radius: 40px;
+    
+    outline: 1px solid white ;
+    border: none;
+}
+
+#button_settings{
+    border: none;
+    outline: none;
+    background: none;
+    position: absolute;
+    top: 16px;
+    left: 137px;
+
+}
+#button_settings:hover{
+    position: absolute;
+    width: 58px;
+    height: 58px;
+    top: 3.8px;
+    left: 135.8px;
+    background: linear-gradient(91deg, rgba(255, 255, 255, 0.4) 11%, rgba(255, 255, 255, 0.1) 88%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(20px);
+    border-radius: 40px;
+    
+    outline: 1px solid white ;
+    border: none;
+}
+
+#end{
+    position: absolute;
+    width: 1526px;
+    height: 141px;
+    left: 0px;
+    top: 2496px;
+    background: #23334D;
+}
+#address{
+    position: absolute;
+    height: 30px;
+    top: 8px;
+    left: 71px;
+
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height:30px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+
+    color: #DEDEDE;
+}
+#phone{
+    position: absolute;
+    height: 40px;
+    top: 35px;
+    left: 71px;
+
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height:30px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+
+    color: #DEDEDE;
+}
+#mail{
+    position: absolute;
+    height: 30px;
+    top: 73px;
+    left: 71px;
+
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height:30px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+
+    color: #DEDEDE;
+}
+#go_up{
+    position: absolute;
+    top: 10px;
+    left: 735px;
+    border: none;
+    outline: none;
+    background: none;
+    position: absolute;
+    color: #DEDEDE;
+}
+#go_up:hover{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.05);
+    transform: translateY(-2px);
+}
+
+#credit{
+    position: absolute;
+    height: 40px;
+    top: 50px;
+    left: 423px;
+
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height:30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #DEDEDE;
+}
+
+#logo_planet{
+    position: absolute;
+    bottom: 30px;
+    left: 1256px;
+}
+
+#logo_star{
+    position: absolute;
+    bottom: 0px;
+    left: 1346px;
+    height: 150px;
+}
+#logo_star:hover{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.05);
+}
+#image_left{
+    position: absolute;
+    top: 170px;
+    left: 40px;
+    border: none;
+    outline: none;
+    background: none;
+    position: absolute;
+}
+#image_left:hover{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.05);
+    transform: translateX(-2px);
+}
+#image_right{
+    position: absolute;
+    top: 170px;
+    left: 1253px;
+    border: none;
+    outline: none;
+    background: none;
+    position: absolute;
+}
+#image_right:hover{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.05);
+    transform: translateX(2px);
+}
+#starting_image{
+    position: absolute;
+    width: 1340px;
+    height: 400px;
+    top: 165px;
+    left: 106px;
+
+    background: linear-gradient(91deg, rgba(255, 255, 255, 0.4) 11%, rgba(255, 255, 255, 0.1) 88%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(20px);
+
+    border-radius: 40px;
+    outline: 1px solid white ;
+
+}
+
+#slide1{
+    position: absolute;
+    width: 1080px;
+    height: 275px;
+    top: 60px;
+    left: 130px;
+    border-radius: 50px;
+}
+
+#first_div{
+    position: absolute;
+    width: 1359px;
+    height: 400px;
+    top: 801px;
+    left: 88px;
+
+    background: linear-gradient(91deg, rgba(255, 255, 255, 0.4) 11%, rgba(255, 255, 255, 0.1) 88%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(20px);
+
+    border-radius: 40px;
+    outline: 1px solid white ;
+}
+#first_div:hover{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.05);
+}
+
+#first_title{
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height:30px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+
+    color: #4F5B71;
+}
+#first_text{
+    position: absolute;
+    width: 1268px;
+    height: 199px;
+    top: 78px;
+    left: 50px;
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    color: #4F5B71;
+}
+#second_text{
+    position: absolute;
+    width: 1268px;
+    height: 199px;
+    top: 74px;
+    left: 50px;
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    color: #4F5B71;
+}
+#second_title{
+    position: absolute;
+    top: 19px;
+    RIGHT: 43px;
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 30px;
+    width: 483px;
+    align-items: center;
+    text-align: RIGHT;
+    color: #4F5B71;
+}
+
+#second_div{
+    position: absolute;
+    width: 1359px;
+    height: 400px;
+    top: 1350px;
+    left: 88px;
+
+    background: linear-gradient(91deg, rgba(255, 255, 255, 0.4) 11%, rgba(255, 255, 255, 0.1) 88%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(20px);
+
+    border-radius: 40px;
+    outline: 1px solid white ;
+}
+#second_div:hover{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.05);
+}
+
+#third_div{
+    position: absolute;
+    width: 1359px;
+    height: 400px;
+    top: 1930px;
+    left: 88px;
+
+    background: linear-gradient(91deg, rgba(255, 255, 255, 0.4) 11%, rgba(255, 255, 255, 0.1) 88%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(20px);
+
+    border-radius: 40px;
+    outline: 1px solid white ;
+}
+#third_div:hover{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.05);
+}
+
+
+#third_text{
+    position: absolute;
+    width: 1268px;
+    height: 199px;
+    top: 78px;
+    left: 50px;
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    color: #4F5B71;
+}
+#third_title{
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height:30px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+
+    color: #4F5B71;
+}
+
+#image_divider{
+    position: absolute;
+    top: 575px;
+    left: -11px;
+    height: 200px;
+    width: 1537px;
+}
+
+
+/* PROVA NON MIO */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: #3E5076;
+    border-radius: 40px;
+}
+
+html{
+    scroll-behavior: smooth;
+    height: 2500px;
+}
+
+#dot-container {
+    position: absolute;
+    bottom: 10px; 
+    left: 653px;
+}
+
+.dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.dot.active {
+    background-color: #333;
+}
+
+#change_language{
+    position: absolute;
+    width: 123px;
+    height: 38px;
+    top: 14px;
+    left: 67px;
+    background: linear-gradient(90.86deg, rgba(255, 255, 255, 0.4) 10.67%, rgba(255, 255, 255, 0.1) 87.84%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(20px);
+    border-radius: 40px;
+    outline: 1px solid white;
+    border: none;
+    font-family: 'IBM Plex Mono medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 31px;
+    color: #C6633A;
+}
+
+#image img {
+    opacity: 0;
+    transition: opacity 0.5s ease; /* Add transition for opacity */
+}
+
+#image img.active {
+    opacity: 1;
+}
+
+#logo_website{
+    position: absolute;
+    width: 326px;
+    height: 91px;
+    top: 11px;
+    left: 60px;
+}
